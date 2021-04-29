@@ -13,7 +13,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "deploy": "npm version patch && react-scripts build && gh-pages -d build",
+    "deploy": "react-scripts build && gh-pages -d build && npm version patch",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
